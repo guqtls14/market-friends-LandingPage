@@ -140,6 +140,8 @@ body {
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
+
+    margin: 30px;
   }
 
   /* 프로덕트1-1 */
