@@ -276,3 +276,18 @@ body {
       flex-direction: column;
     }
   }
+
+  /* 타이핑효과 */
+
+  #typing1,#typing2 {
+    border-right: 2px solid black; /* 커서 효과 */
+    font-family: monospace; /* 고정폭 글꼴 */
+    white-space: nowrap; /* 텍스트가 한 줄에 표시되도록 설정 */
+    overflow: hidden; /* 내용이 넘칠 경우 숨김 */
+    animation: blinkCursor 0.75s step-end infinite; /* 커서 깜빡임 효과 */
+  }
+  
+  @keyframes blinkCursor {
+    from, to { border-color: transparent }
+    50% { border-color: black }
+  }
