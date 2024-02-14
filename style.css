@@ -95,7 +95,7 @@ body {
     align-items: center;
     flex-direction: column;
   }
-  .screenshot h1,h3, #character h1,#product-list-1 .product h1,#product-list-2 .product h1,.app-description h1  {
+  .screenshot h2, .screenshot h1,h3, #character h2,#product-list-1 .product h2,#product-list-2 .product h2,.app-description h2  {
     font-weight: 1000;
   }
 
@@ -112,7 +112,7 @@ body {
     justify-content: space-around;
   }
   
-  .app-description h1{
+  .app-description h2{
     margin-bottom: 50px;
   }
   .app-description p, #character p, #product-list-1 p, #product-list-2 p {
@@ -154,8 +154,8 @@ body {
     background-color: #F0FBF8;
   }
   .product img, #product-4 img {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     max-width: 100%; /* 이미지가 컨테이너보다 커지지 않도록 제한 */
     height: auto; /* 이미지의 원래 비율을 유지 */
   }
@@ -167,7 +167,7 @@ body {
     align-items: center;
   }
 
-  #product-4 h1 {
+  #product-4 h2 {
     color: #6AC3C0;
     font-weight: 1000;
   }
