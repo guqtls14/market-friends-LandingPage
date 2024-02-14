@@ -170,8 +170,8 @@ body {
   }
 
   #screenshots img {
-    width: 700px;
-    height: 700px;
+    width: 500px;
+    height: 500px;
     max-width: 100%; /* 이미지가 컨테이너보다 커지지 않도록 제한 */
     height: auto; /* 이미지의 원래 비율을 유지 */
   }
