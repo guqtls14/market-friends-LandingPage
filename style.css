@@ -1,5 +1,9 @@
 /* styles.css */
 
+html {
+  font-size: 16px; /* This sets the base font size for the document */
+}
+
 
 body {
     font-family: 'Arial', sans-serif;
@@ -17,6 +21,25 @@ body {
     background: #fff;
     padding: 10px 0;
   }
+
+  /* 글자크기 */
+  /* 기존에 px 단위로 설정된 폰트 크기를 em 단위로 변경 */
+  .app-description p, #character p, #product-list-1 p, #product-list-2 p {
+    font-weight: 700;
+    font-size: 1em; /* 예: 16px = 1em으로 가정 */
+  }
+
+  .screenshot h2, .screenshot h1, h3, #character h2, #product-list-1 .product h2, #product-list-2 .product h2, .app-description h2 {
+    font-weight: 1000;
+    font-size: 1.25em; /* 예: 20px = 1.25em으로 가정 */
+  }
+
+  .green-button, .green-button-2 {
+    font-size: 1.625em; /* 예: 26px = 1.625em으로 가정 */
+  }
+
+
+
 
   /* 헤더 로고 */
   .flex-container {
