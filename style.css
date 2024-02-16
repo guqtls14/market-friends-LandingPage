@@ -1,16 +1,21 @@
 /* styles.css */
 
-html {
-  font-size: 16px; /* This sets the base font size for the document */
-}
+  /* Import Inter font from Google Fonts */
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+  html {
+    font-size: 16px; /* This sets the base font size for the document */
+  }
 
 
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
+  body {
+
+   font-family: 'Noto Sans','Arial', sans-serif ;
+  
+    /* font-family: "Inter", sans-serif; */
   }
   
+ 
   header, nav, main, section, footer {
     display: block;
   }
@@ -38,8 +43,10 @@ body {
     font-size: 1.625em; /* 예: 26px = 1.625em으로 가정 */
   }
 
-
-
+  /* 타이핑 문장 */
+  #typing1, #typing2 {
+    font-size: 3em;
+  }
 
   /* 헤더 로고 */
   .flex-container {
@@ -87,12 +94,18 @@ body {
     border-radius: 20px; /* 버튼의 모서리를 둥글게 */
     outline: none; /* 선택시 테두리 제거 */
     transition: background-color 0.3s; /* 배경색 변경시 부드러운 전환 효과 */
+
   }
   
+  .bottom-button {
+    margin-top: 30px
+  }
+
   .menu-button:hover {
     background-color: #367c39; /* 마우스 오버시 버튼의 배경색 변경 */
   }
   
+
 
 
 
@@ -219,6 +232,16 @@ body {
     text-align: center;
   }
 
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+  }
+
+  .footer-content p {
+    margin-top: 30px;
+  }
 
   .footer-logo {
     position: absolute; /* footer 내에서 절대 위치를 사용 */
@@ -251,7 +274,7 @@ body {
 
   }
 
-  .green-button-2 {
+   .green-button-2 {
     background-color: #4CAF50; /* 버튼의 배경색 */
     width: 320px;
     color: white; /* 버튼의 텍스트 색상 */
@@ -264,8 +287,6 @@ body {
     text-decoration: none; /* 텍스트 밑줄 제거 */
     display: inline-block; /* 필요에 따라 블록 레벨 요소로 표시 */
     transition: background-color 0.3s; /* 배경색 변경시 부드러운 전환 효과 */
-
-    margin-top: 30px;
   }
   
   
@@ -273,8 +294,16 @@ body {
     background-color: #45a049; /* 마우스 오버시 버튼의 배경색 변경 */
   }
   
- 
 
+
+  .menu-button {
+    width: 200px;
+  }
+
+  .menu-button a {
+    text-decoration: none;
+    color: white;
+  }
 
 
 
