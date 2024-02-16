@@ -61,7 +61,7 @@
 
   }
   .flex-container div {
-   
+    margin-left: 15px;
     font-weight : bold; 
   }
 
@@ -260,7 +260,7 @@
   }
 
   .footer-logo div {
-    /* margin-left: 30px; */
+    margin-left: 15px;
     font-weight : bold; 
   }
 
