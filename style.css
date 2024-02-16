@@ -186,6 +186,26 @@
     margin: 30px;
   }
 
+  #character-list1 h2, #character-list2 h2, #character-list3 h2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    color: #22CB91;
+    margin: 30px;
+    font-size: 2em;
+  }
+
+  #character-list1 p, #character-list2 p, #character-list3 p{
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    color: #22CB91;
+    margin: 30px; */
+    font-size: 1.3em;
+  }
+
   /* 프로덕트1-1 */
   #product-list-1,#product-list-2 {
     display: flex;
@@ -247,6 +267,8 @@
 
   .footer-content p {
     margin-top: 30px;
+    font-size: 1.5em;
+    font-weight: 1000;
   }
 
   .footer-logo {
